@@ -46,27 +46,27 @@ class StethoNetworkInspectorExample extends StatelessWidget {
           child: new Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              new Padding(
-                padding: new EdgeInsets.all(16.0),
-                child: new RaisedButton(
-                  onPressed: fetchJson,
-                  child: new Text("Fetch json"),
-                ),
-              ),
-              new Padding(
-                padding: new EdgeInsets.all(16.0),
-                child: new RaisedButton(
-                  onPressed: fetchImage,
-                  child: new Text("Fetch image"),
-                ),
-              ),
-              new Padding(
-                padding: new EdgeInsets.all(16.0),
-                child: new RaisedButton(
-                  onPressed: fetchError,
-                  child: new Text("Fetch with Error"),
-                ),
-              )
+            //   new Padding(
+            //     padding: new EdgeInsets.all(16.0),
+            //     child: new RaisedButton(
+            //       onPressed: fetchJson,
+            //       child: new Text("Fetch json"),
+            //     ),
+            //   ),
+            //   new Padding(
+            //     padding: new EdgeInsets.all(16.0),
+            //     child: new RaisedButton(
+            //       onPressed: fetchImage,
+            //       child: new Text("Fetch image"),
+            //     ),
+            //   ),
+            //   new Padding(
+            //     padding: new EdgeInsets.all(16.0),
+            //     child: new RaisedButton(
+            //       onPressed: fetchError,
+            //       child: new Text("Fetch with Error"),
+            //     ),
+            //   )
             ],
           ),
         ),

@@ -68,7 +68,7 @@ class StethoHttpClient implements HttpClient {
   }
 
   @override
-  void close({bool force: false}) {
+  void close({bool force = false}) {
     client.close();
   }
 
